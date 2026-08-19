@@ -1,0 +1,21 @@
+{
+  "name": "ai-product-manager-agent",
+  "version": "1.0.0",
+  "description": "Multi-agent AI Product Manager using the OpenAI Agents SDK",
+  "type": "module",
+  "main": "index.ts",
+  "scripts": {
+    "start": "tsx index.ts",
+    "dev": "tsx watch index.ts"
+  },
+  "dependencies": {
+    "@openai/agents": "^0.14.2",
+    "axios": "^1.19.0",
+    "dotenv": "^17.4.2",
+    "zod": "^4.4.3"
+  },
+  "devDependencies": {
+    "tsx": "^4.23.5",
+    "typescript": "^7.0.2"
+  }
+}
